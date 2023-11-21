@@ -17,3 +17,4 @@ public class Vehiculo {
         return (capacidad*100)/consumo;
     }
 }
+

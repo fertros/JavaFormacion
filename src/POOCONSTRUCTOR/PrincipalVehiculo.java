@@ -4,7 +4,7 @@ public class PrincipalVehiculo {
     public static void main(String[] args) {
 
         /* Creamos objetos del tipo Vehiculo y gracias al constructor
-         * asignamos los valores a cada variable de los vehiculos */
+        * asignamos los valores a cada variable de los vehiculos */
 
         Vehiculo coche1=new Vehiculo(4,50,5);
         Vehiculo coche2=new Vehiculo(5,75,6);
@@ -13,8 +13,8 @@ public class PrincipalVehiculo {
         //Mostramos la autonomia de los vehículos con el método creado
         System.out.println("Autonomia del coche1= "+coche1.Autonomia());
         System.out.println("Autonomia del coche2= "+coche2.Autonomia());
+        }
     }
-}
 
 /* En este ejemplo, contamos con dos clases, una principal, denominada PrincipalVehiculo,
 y otra llamada Vehiculo. Dentro de esta última clase, se han declarado unas variables y

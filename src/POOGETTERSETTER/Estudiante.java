@@ -6,7 +6,9 @@ public class Estudiante {
     private String apellido;
     private String correo;
 
-    public String getNombre() {return nombre;}
+    public String getNombre() { //Getter
+        return nombre;
+    }
     public void setNombre(String nombre) { //Setter
         this.nombre = nombre;
     }
